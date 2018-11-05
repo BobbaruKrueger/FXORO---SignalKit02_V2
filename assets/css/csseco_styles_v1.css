@@ -1,0 +1,116 @@
+@media screen and (max-width: 1660px) {
+
+	.header {
+		background-position: top left -90px;
+	}
+
+}
+
+@media screen and (max-width: 1440px) {
+
+	.header {
+		background-position: top left -240px;
+	}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+	.header {
+		background-position: top left -340px;
+	}
+
+	.header .title h1 {
+		font-size: 35px;
+	}
+
+	.submitformmain h1,
+	.csseco_fsas {
+		font-size: 28px;
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+
+	.header .title,
+	.header .submitformmain {
+		padding: 20px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.header {
+		background-position: top left -1100px;
+	}
+
+	.header .title h1 {
+		font-size: 30px;
+	}
+
+	.submitformmain h1 {
+		font-size: 20px;
+	}
+
+}
+
+@media screen and (width: 768px) {
+	.header {
+		background-position: top left -780px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	
+	.csseco_fsas {
+		font-size: 22px;
+	}
+
+}
+
+@media screen and (max-width: 576px) {
+	.header {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	.header .title,
+	.header .submitformmain {
+		padding: 20px;
+	}
+	
+	.header .title h1 {
+		font-size: 25px;
+	}
+	
+	.header .title h1 br {
+		display: none;
+	}
+
+	.header .title h1 + p {
+		font-size: 16px;
+	}
+
+	.csseco_fsas {
+		font-size: 20px;
+		padding-bottom: 10px!important;
+		padding-right: 1rem;
+	}
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+	.header .title h1 br {
+		display: none;
+	}
+}
+
+button#form_button:after {
+	display: none;
+}

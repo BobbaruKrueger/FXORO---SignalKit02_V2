@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,800&subset=latin-ext');
+body {
+    color: #8c8c8c;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f0f0f0;
+}
+.section {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1f5181;
+}
+/*** Header ***/
+.header {
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.header h1 {
+    color: #fff;
+}
+h1.logo a {
+    background-image: url(../img/fxoro_logo.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: transparent;
+    width: 124px;
+    height: 48px;
+    display: block;
+}
+.header .title,
+.header .submitformmain {
+    background-image: url(../img/title_background.png);
+    background-repeat: repeat;
+    padding: 2.5rem;
+    color: #fff;
+    margin-bottom: 0.9375rem;
+}
+.header .submitformmain {
+    background-image: url(../img/form_background.png)
+}
+.header .title h1 {
+    font-weight: 600;
+    line-height: 1;
+    font-size: 2.875rem;
+}
+.header p {
+    color: #fff;
+    margin: 0px;
+    font-size: 1.25rem;
+}
+/*** Form ***/
+.submitformmain h1 {
+    font-weight: 800;
+    color: #2cc164;
+    font-size: 2.5rem;
+    line-height: 1;
+    padding-bottom: 3px;
+}
+.submitformmain input,
+.submitformmain select {
+    border: 1px solid #000000;
+    border-radius: 0px;
+    color: #484848;
+    font-size: 1rem;
+    padding: .625rem .875rem;
+}
+.inputerror,
+.submiterror,
+div#notagreeerror {
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+div#notagreeerror {
+    margin-bottom: 0px;
+}
+input#phoneprefix {
+    width: 30%;
+    float: left;
+}
+input#phonenumber {
+    border-radius: 0px;
+    width: 70%;
+    border-left: none;
+}
+input#lname,
+select#country-selector {
+    border-radius: 0px;
+}
+input#lname {
+    border-left: none;
+}
+#checksubmit {
+    display: none;
+}
+.btn,
+#checksubmit {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    padding: .625rem 1.125rem;
+}
+.btn-success,
+#checksubmit {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+button#form_button,
+#checksubmit {
+    padding: .75rem 1.125rem;
+    width: 100%;
+    line-height: .99;
+}
+button#form_button:after {
+    content: "icon";
+    background: url(../img/register_arrow.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    text-indent: -999em;
+    width: 18px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 5px;
+}
+#checksubmit {
+    text-align: center;
+    opacity: 0.5;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.btn-primary:hover,
+.btn-success:hover,
+.btn-secondary:hover,
+.btn-success:not([disabled]):not(.disabled).active,
+.btn-success:not([disabled]):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+    background-color: #2cc164;
+    border: none;
+    color: #fff;
+    border: solid 2px #2cc164;
+}
+.btn-success.focus,
+.btn-success:focus,
+.btn-success:not([disabled]):not(.disabled).active,
+.btn-success:not([disabled]):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: solid 2px #2cc164;
+    background-color: #2cc164;
+}
+.submitformmain input,
+.submitformmain select {
+    width: 100%;
+}
+input.form-check-input,
+input#agreeinput {
+    width: auto;
+}
+.submitformmain select {
+    height: calc(2.3125rem + 9px);
+}
+.agreement label {
+    display: inline;
+}
+.risklinkpar {
+    /*padding-left: 16px;*/
+}
+.risklinkpar {
+    display: block;
+    color: #2fbf65;
+}
+.risklink {
+    margin-bottom: 0px;
+    font-size: .8125rem;
+}
+/*** Services ***/
+[class^="icon"] {
+    /* position: relative;
+    top: 19%;
+    width: 100%;
+    height: 35px !important;*/
+}
+/*** Footer ***/
+footer {
+    font-size: .8125rem;
+}
+/*** Responsive ***/
+@media (max-width:576px) {
+    .header .title h1,
+    .submitformmain h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .header .title {
+        text-align: center;
+    }
+    .submitformmain h1 {
+        font-size: 1.625rem;
+    }
+}
+@media (max-width:768px) {
+    .header {
+        background-size: auto 1321px;
+    }
+}
